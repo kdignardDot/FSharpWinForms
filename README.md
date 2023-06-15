@@ -7,10 +7,10 @@ Create new F# Console application
 ## Step 2:
 Click the project name in your solution explorer.
 Edit your settings:
-- <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-- <OutputType>WinExe</OutputType>
-- <UseWindowsForms>true</UseWindowsForms>
-- <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0" />
+- `<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">`
+- `<OutputType>WinExe</OutputType>`
+- `<UseWindowsForms>true</UseWindowsForms>`
+- `<PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0" />`
 ```
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
