@@ -1,5 +1,6 @@
 # FSharpWinForms
 FSharp Windows Forms - Basic Example
+Using Visual Studio 2022
 
 ### Step 1:
 Create new F# Console application
@@ -9,7 +10,9 @@ Click the project name in your solution explorer.
 
 Edit your settings:
 - `<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">`
+	- Add `.WindowsDesktop`
 - `<OutputType>WinExe</OutputType>`
+	- Change to `WinExe`	
 - `<UseWindowsForms>true</UseWindowsForms>`
 - `<PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0" />`
 ```
