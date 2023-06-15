@@ -12,6 +12,8 @@ Edit your settings:
 - `<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">`
 - `<OutputType>WinExe</OutputType>`
 - `<UseWindowsForms>true</UseWindowsForms>`
+	- These 3 options should have added a reference/framework to your project
+		- Micosoft.WindowsDesktop.App.WindowsForms 
 - `<PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0" />`
 ```
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
