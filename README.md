@@ -1,10 +1,10 @@
 # FSharpWinForms
 FSharp Windows Forms - Basic Example
 
-## Step 1:
+### Step 1:
 Create new F# Console application
 
-## Step 2:
+### Step 2:
 Click the project name in your solution explorer.
 
 Edit your settings:
@@ -33,5 +33,5 @@ Edit your settings:
 </Project>
 ```
 
-## Step 3:
+### Step 3:
 Open Project properties and set your Target OS to Windows.
