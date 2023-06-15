@@ -1,2 +1,36 @@
 # FSharpWinForms
 FSharp Windows Forms - Basic Example
+
+## Step 1:
+Create new F# Console application
+
+## Step 2:
+Click the project name in your solution explorer.
+Edit your settings:
+- <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+- <OutputType>WinExe</OutputType>
+- <UseWindowsForms>true</UseWindowsForms>
+- <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0" />
+```
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+	<OutputType>WinExe</OutputType>
+	<UseWindowsForms>true</UseWindowsForms>
+	<RootNamespace>fgui</RootNamespace>
+	<AssemblyName>FSharpGui</AssemblyName>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0" />
+	<Compile Include="FormDesign.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
+```
+
+## Step 3:
+Open Project properties and set your Target OS to Windows.
