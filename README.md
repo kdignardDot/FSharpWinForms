@@ -34,4 +34,12 @@ Edit your settings:
 ```
 
 ### Step 3:
-Open Project properties and set your Target OS to Windows.
+Open Project properties [Application] -> [General] -> and set your Target OS to Windows.
+
+#### If done correctly Application Settings should look like this:
+- Output type: Windows Application
+- Target framewrok: .NET 6.0 (for this example)
+- Target OS: Windows
+- Target OS Version: 7.0 (for this example)
+- Supported OS Version: 7.0 (for this example)
+- Windows Forms: Checked Enable
