@@ -10,9 +10,7 @@ Click the project name in your solution explorer.
 
 Edit your settings:
 - `<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">`
-	- Add `.WindowsDesktop`
 - `<OutputType>WinExe</OutputType>`
-	- Change to `WinExe`	
 - `<UseWindowsForms>true</UseWindowsForms>`
 - `<PackageReference Include="Microsoft.Windows.Compatibility" Version="3.0.0" />`
 ```
